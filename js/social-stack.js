@@ -3,9 +3,9 @@ $(document).ready(function(){
 	var siteUrl = 'http://www.500px.com/';
     $.getJSON(url, function(data){
 			$.each(data.query.results.json.photos, function(i, photo){
-				var siteUrl = 'http://www.500px.com/';		
+				var siteUrl = 'http://www.500px.com/';
 				var apiFlow = ['<div class="_col">'];
-					for(var i=0; i<1; i++) 
+					for(var i=0; i<1; i++)
 						apiFlow.push('<article class="_item">');
 						apiFlow.push('<a href='+siteUrl+''+photo.user.username+'>');
 						apiFlow.push('<img src='+photo.image_url+' alt='+photo.user.fullname+' />');
@@ -20,5 +20,5 @@ $(document).ready(function(){
 						apiFlow.push('</article>');
 						$("#spread").append(apiFlow.join(''));
 			});
-		});	
+		});
 });
