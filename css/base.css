@@ -326,7 +326,7 @@ section.spread{
 			border-bottom-right-radius: 2px;
 			border-bottom-left-radius: 2px;
       box-shadow: 1px 1px 1px #d8d8d8;
-      text-align: left;	
+      text-align: left;
     }
     article._item img{
     	-webkit-border-top-left-radius: 3px;
@@ -335,6 +335,7 @@ section.spread{
 			-moz-border-radius-topright: 3px;
 			border-top-left-radius: 3px;
 			border-top-right-radius: 3px;
+			width: 100%;
     }
     article._item > p{
     	padding: 0px 0 5px 10px;
