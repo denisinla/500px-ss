@@ -10,7 +10,7 @@ $(document).ready(function(){
 			$.each(data.photos, function(index, element){
 				$('<div/>')
 				.addClass('_col')
-				.append($('<img/>',{src:element.image_url}),$('<a/>',{href: 'http://500px.com/' + element.user.username,text:element.user.username}))
+				.append($('<img/>').attr({src:element.image_url,alt:element.name}))
 				.appendTo('#spread');
 			});
 		}
