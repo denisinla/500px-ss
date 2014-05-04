@@ -1,13 +1,14 @@
 {
   "name": "Heroku-Node-App",
   "version": "0.0.1",
+  "author": "Denis Kabistan",
   "dependencies": {
-    "express": "3.4.4"
+    "express": "3.x"
   },
   "engines": {
     "node": "0.10.21",
     "npm": "1.3.11"
   },
   "repository": "git",
-  "url": "https://github.com/username/heroku-app.git"
+  "url": "https://github.com/dkabistan/heroku-app.git"
 }
