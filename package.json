@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "author": "Denis Kabistan",
   "dependencies": {
-    "express": "3.x"
+    "express": "4.x"
   },
   "engines": {
-    "node": "0.10.21",
+    "node": "0.10.x",
     "npm": "1.3.11"
   },
   "repository": "git",
